@@ -1,0 +1,77 @@
+
+#create{
+    display: flex;
+
+    .main-create{
+        width: 100%;
+        height: 100vh;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .create-top{
+        height: 8vh;
+    }
+
+    .create-top h3{
+        text-align: center;
+        font-size: 50px;
+        color: #2c2c2c;
+        background-color: #d5d5d5;
+        letter-spacing: .05em;
+        color: darkblue;
+    }
+
+    .create-center{
+        padding: 15px;
+        width: 100%;
+        height: 92vh;
+        border: 1px solid teal;
+    }
+
+    .left{
+        padding: 5px;
+    }
+
+    .right{
+        border-left: 1px dashed  steelblue ;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 90vh;
+    }
+
+    .list-task{
+        margin-top: 15px;
+        padding: 10px;
+    }
+
+    .task-customer h4{
+        text-align: center;
+        font-size: 30px;
+        color: #2c2c2c;
+        background-color: #d5d5d5;
+        letter-spacing: .05em;
+        color: darkblue;
+    }
+
+    .number-phone{
+        margin-bottom: 8px;
+    }
+
+    .number-product{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .input{
+        margin: 2px;
+    }
+    
+    .result{
+        margin-bottom: 20px;
+        border-bottom: 1px solid steelblue;
+        padding-bottom: 10px;
+    }
+
+
+}
